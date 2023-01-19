@@ -1,4 +1,4 @@
-import { useMutation, useQuery, withWunderGraph } from '../../components/generated/nextjs';
+import { useMutation, useQuery, withWunderGraph } from '../../components/custom';
 import { users_updateInput } from '../../components/generated/models';
 import { useState } from 'react';
 

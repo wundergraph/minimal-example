@@ -1,4 +1,4 @@
-import { useQuery, withWunderGraph } from '../../components/generated/nextjs';
+import { useQuery, withWunderGraph } from '../../components/custom';
 
 const Users = () => {
 	const { data } = useQuery({

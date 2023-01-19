@@ -31,7 +31,7 @@ configureWunderGraphApplication({
 	],
 	cors: {
 		...cors.allowAll,
-		allowedOrigins: process.env.NODE_ENV === 'production' ? ['http://localhost:3000'] : ['http://localhost:3000'],
+		allowedOrigins: ["https://3000-wundergraph-minimalexam-ukplwje01qg.ws-eu83.gitpod.io"]
 	},
 	authentication: {
 		cookieBased: {
